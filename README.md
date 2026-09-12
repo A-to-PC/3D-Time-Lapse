@@ -2,6 +2,8 @@
 
 A small standalone Windows app that watches a [Moonraker](https://github.com/Arksine/moonraker)-enabled 3D printer for print state and automatically records a timelapse from any RTSP camera — no Klipper config changes required.
 
+Running an Anycubic Kobra 3-series printer on **stock** firmware, without Rinkhals/Moonraker? See [Kobra Time Lapse](https://github.com/A-to-PC/Kobra-Time-Lapse) instead — that's this project's stock-firmware sibling, talking to the printer's own LAN protocol directly rather than polling Moonraker.
+
 ## Why this exists
 
 The obvious way to get a print-triggered timelapse is [moonraker-timelapse](https://github.com/mainsail-crew/moonraker-timelapse), a plugin that runs *inside* Moonraker/Klipper. That works well on standard installs, but on heavily customized firmware (e.g. [Rinkhals](https://github.com/rinkhals-community/Rinkhals) on Anycubic Kobra printers) it has a track record of crashing Klipper outright when added, with reports going back a long way and no confirmed fix.
