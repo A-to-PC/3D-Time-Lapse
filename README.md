@@ -6,6 +6,8 @@ Running an Anycubic Kobra 3-series printer on **stock** firmware, without Rinkha
 
 **Status:** stable, not actively updated — the maintainer moved to stock firmware, so new feature work is happening on Kobra Time Lapse instead. That's a "not right now," not a "never": if Rinkhals goes back on, this is the one that reopens.
 
+Part of a small family of tools built out of real Kobra 3 Max ownership — see [Kobra 3 Max: The Long Way Round](https://github.com/A-to-PC/Kobra-3-Max-Journey) for the full story of why this exists.
+
 ## Why this exists
 
 The obvious way to get a print-triggered timelapse is [moonraker-timelapse](https://github.com/mainsail-crew/moonraker-timelapse), a plugin that runs *inside* Moonraker/Klipper. That works well on standard installs, but on heavily customized firmware (e.g. [Rinkhals](https://github.com/rinkhals-community/Rinkhals) on Anycubic Kobra printers) it has a track record of crashing Klipper outright when added, with reports going back a long way and no confirmed fix.
