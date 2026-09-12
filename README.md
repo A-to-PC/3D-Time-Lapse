@@ -4,6 +4,8 @@ A small standalone Windows app that watches a [Moonraker](https://github.com/Ark
 
 Running an Anycubic Kobra 3-series printer on **stock** firmware, without Rinkhals/Moonraker? See [Kobra Time Lapse](https://github.com/A-to-PC/Kobra-Time-Lapse) instead — that's this project's stock-firmware sibling, talking to the printer's own LAN protocol directly rather than polling Moonraker.
 
+**Status:** stable, not actively updated — the maintainer moved to stock firmware, so new feature work is happening on Kobra Time Lapse instead. That's a "not right now," not a "never": if Rinkhals goes back on, this is the one that reopens.
+
 ## Why this exists
 
 The obvious way to get a print-triggered timelapse is [moonraker-timelapse](https://github.com/mainsail-crew/moonraker-timelapse), a plugin that runs *inside* Moonraker/Klipper. That works well on standard installs, but on heavily customized firmware (e.g. [Rinkhals](https://github.com/rinkhals-community/Rinkhals) on Anycubic Kobra printers) it has a track record of crashing Klipper outright when added, with reports going back a long way and no confirmed fix.
