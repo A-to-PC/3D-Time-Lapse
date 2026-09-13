@@ -6,7 +6,7 @@ namespace TimeLapse3D;
 public class Settings
 {
     public string RtspUrl { get; set; } = "rtsp://admin:CODE@192.168.1.100:554/ch1/main";
-    public string MoonrakerHost { get; set; } = "172.16.77.13";
+    public string MoonrakerHost { get; set; } = "192.168.1.100";
     public int MoonrakerPort { get; set; } = 7125;
     public int IntervalSeconds { get; set; } = 10;
     public string OutputFolder { get; set; } = Path.Combine(
